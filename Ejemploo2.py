@@ -2,11 +2,9 @@ def calcular(a, b, c):
     res = a * b + c
     return res
 
-def principal():
-    x = 5
-    y = 3
-    z = 7
-    resultado = calcular(x, y, z)
-    print("El resultado es:", resultado)
-
-principal()
+if __name__=="__main__":
+    x=float(input("Ingrese el valor de x:"))
+    y = float(input("Ingrese el valor de y:"))
+    z = float(input("Ingrese el valor de z:"))
+    Resultado=calcular(x,y,z)
+    print(f"El resultado de la operacion es {Resultado}")
